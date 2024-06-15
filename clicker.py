@@ -1,5 +1,6 @@
 from time import sleep
 import keyboard
+from random import randint
 
 from click.click_to_banana import click_to_banana
 from click.find_icon import find_and_open, find_close
@@ -29,5 +30,5 @@ while True:
         else:
             continue
     else:
-        sleep(3600)
+        sleep(randint(3600, 3650))
         hours += 1
