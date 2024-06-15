@@ -11,3 +11,5 @@ def click_to_banana():
     for i in range(150):
         sleep(randint(1, 5) / 100)
         pya.click()
+    print("Finish clicking to banana")
+    sleep(randint(2, 8))
