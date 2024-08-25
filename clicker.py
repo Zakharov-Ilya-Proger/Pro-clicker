@@ -4,7 +4,6 @@ from random import randint
 from click.click_to_banana import click_to_banana
 from click.find_icon import find_and_open, find_close
 
-
 is_clicking = False
 hours = 0
 
@@ -13,7 +12,7 @@ def clicking():
     global is_clicking
     is_clicking = not is_clicking
     if is_clicking:
-        print("Now we are clicking")
+        print("Now we are clicking"),
     else:
         print("Stop clicking")
 
